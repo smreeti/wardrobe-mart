@@ -7,8 +7,9 @@ import Page from './Page.jsx';
 const element = (
   <Router>
     <Page />
-  </Router>
+ </Router>
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(element);
