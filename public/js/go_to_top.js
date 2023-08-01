@@ -1,5 +1,3 @@
-"use strict";
-
 $(document).ready(function () {
   // Move the page back to the top when user clicks on the "Go To Top" icon.
   $("#go_to_top").click(() => {

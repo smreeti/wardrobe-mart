@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <section id="footer">
-                <div class="need_help">
+                <div className="need_help">
                     <h1>NEED HELP</h1>
                     <ul>
                         <li><a href="index.html">Contact Us</a></li>
@@ -15,7 +15,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div class="company">
+                <div className="company">
                     <h1>COMPANY</h1>
                     <ul>
                         <li><a href="index.html">About Us</a></li>
@@ -26,7 +26,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div class="more_info">
+                <div className="more_info">
                     <h1>MORE INFO</h1>
                     <ul>
                         <li><a href="index.html">T&C</a></li>
@@ -35,14 +35,14 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div class="miscellaneous">
+                <div className="miscellaneous">
                     <ul>
-                        <li><a class="cod" href="index.html">COD Available</a></li>
+                        <li><a className="cod" href="index.html">COD Available</a></li>
                         <li><a href="users.html">30 Days Easy Returns</a></li>
                     </ul>
                 </div>
             </section>
-            <div class="social_media">
+            <div className="social_media">
                 <h1>FIND US ON</h1>
                 <div>
                     <a href="https://www.facebook.com/"
