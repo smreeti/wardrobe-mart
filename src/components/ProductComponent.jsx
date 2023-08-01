@@ -46,9 +46,10 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <a href="productdetails.html">
+                            <Link to="/details">
                                 <img className="pro-img shake" src="images/a.png" alt="Scooby Doo"
-                                /></a>
+                                />
+                            </Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -56,9 +57,10 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <a href="productdetails.html">
+                            <Link to="/details">
                                 <img className="pro-img shake" src="images/b.png" alt="Scooby Doo"
-                                /></a>
+                                />
+                            </Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -66,9 +68,9 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <a href="productdetails.html">
+                            <Link to="/details">
                                 <img className="pro-img shake" src="images/c.png" alt="Scooby Doo"
-                                /></a>
+                                /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -76,9 +78,9 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <a href="productdetails.html">
+                            <Link to="/details">
                                 <img className="pro-img shake" src="images/d.png" alt="Scooby Doo"
-                                /></a>
+                                /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -86,9 +88,9 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <a href="productdetails.html">
+                            <Link to="/details">
                                 <img className="pro-img shake" src="images/e.png" alt="Scooby Doo"
-                                /></a>
+                                /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>

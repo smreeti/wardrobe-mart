@@ -6,6 +6,8 @@ import SignupComponent from './components/SignupComponent.jsx';
 import HomeComponent from './components/HomeComponent.jsx';
 import ProductComponent from './components/ProductComponent.jsx';
 import ProductDetailComponent from './components/ProductDetailComponent.jsx';
+import LoginComponent from './components/LoginComponent.jsx';
+import ContactComponent from './components/ContactComponent.jsx';
 
 export default function AppRoutes() {
 
@@ -16,7 +18,10 @@ export default function AppRoutes() {
       <Route path="/details" element={<ProductDetailComponent/>} />
 
       <Route path="/about" element={<AboutComponent />} />
-      <Route path="/signup" element={<SignupComponent />} />
+      <Route path="/contact" element={<ContactComponent />} />
+
+      <Route path="/login" element={<LoginComponent />} />
+      <Route path="/register" element={<SignupComponent />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>

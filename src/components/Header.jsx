@@ -19,12 +19,17 @@ export default function Header() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">Login</Link>
-                </li>
-                <li>
                     <Link to="/about">About</Link>
                 </li>
-                <li>CREATE ACCOUNT</li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
+                <li>
+                    <Link to="/login">Login</Link>
+                </li>
+                <li>
+                    <Link to="/register">Register</Link>
+                </li>
             </ul>
         </section>
     );
