@@ -7,6 +7,8 @@ const ContactComponent = () => {
     <div className="container mt-3">
       <div className="row">
       <div className="col-lg-6 col-md-12 text-white aside px-4 py-5 contact-detail">
+      <div className="overlay"></div>
+<div className="overlay-text">
         <div className="mb-5 ">
           <h1 className="h3">Contact Information</h1>
           <p className="opacity-80">
@@ -38,6 +40,7 @@ const ContactComponent = () => {
               </span>
             </li>
           </ul>
+          </div>
           <div className="text-muted text-center">
         
           </div>
