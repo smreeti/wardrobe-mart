@@ -11,15 +11,18 @@ $(document).ready(function () {
    * If user returns to top of the screen, hide the button.
    */
   let goToTopBtn = document.getElementById("go_to_top");
-  window.onscroll = () => {
-    if (
-      (document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20) &&
-      breakPoint.matches
-    ) {
-      goToTopBtn.style.display = "block";
-    } else {
-      goToTopBtn.style.display = "none";
-    }
-  };
+
+  if (goToTopBtn) {
+    window.onscroll = () => {
+      if (
+        (document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20) &&
+        breakPoint.matches
+      ) {
+        goToTopBtn.style.display = "block";
+      } else {
+        goToTopBtn.style.display = "none";
+      }
+    };
+  }
 });
