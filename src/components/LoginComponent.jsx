@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
 const LoginComponent = () => {
+  // Initialize state for login form data
   const [loginFormData, setLoginFormData] = useState({
     email: '',
     password: '',
   });
 
+  // Handle input change events
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setLoginFormData({
@@ -14,12 +16,12 @@ const LoginComponent = () => {
     });
   };
 
+  // Handle login form submission
   const handleLoginSubmit = (e) => {
     e.preventDefault();
 
     console.log('Logging in...');
     console.log(loginFormData);
-
   };
 
   return (

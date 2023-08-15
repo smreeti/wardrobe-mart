@@ -4,6 +4,7 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, "slow");
   });
 
+  // Define a media query breakpoint for screens with a width of 768px or more.
   const breakPoint = window.matchMedia("(min-width: 768px)");
 
   /**
@@ -14,13 +15,17 @@ $(document).ready(function () {
 
   if (goToTopBtn) {
     window.onscroll = () => {
+      /* Check if the user has scrolled down more than 20 pixels and the screen width is 
+        greater than or equal to 768px.*/
       if (
         (document.body.scrollTop > 20 ||
           document.documentElement.scrollTop > 20) &&
         breakPoint.matches
       ) {
+        // Display the "Go To Top" button.
         goToTopBtn.style.display = "block";
       } else {
+        // Hide the "Go To Top" button.
         goToTopBtn.style.display = "none";
       }
     };

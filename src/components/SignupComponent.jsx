@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 
 const SignupComponent = () => {
+  // Initialize state for signup form data
   const [signupFormData, setSignupFormData] = useState({
     name: '',
     email: '',
     password: '',
   });
 
+  // Handle input change events
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setSignupFormData({
@@ -15,6 +17,7 @@ const SignupComponent = () => {
     });
   };
 
+  // Handle signup form submission
   const handleSignupSubmit = (e) => {
     e.preventDefault();
 

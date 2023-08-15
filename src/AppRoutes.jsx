@@ -13,16 +13,26 @@ export default function AppRoutes() {
 
   return (
     <Routes>
+      {/* Home route */}
       <Route path="/" element={<HomeComponent />} />
-      <Route path="/products" element={<ProductComponent/>} />
-      <Route path="/details" element={<ProductDetailComponent/>} />
 
+      {/* Product routes */}
+      <Route path="/products" element={<ProductComponent />} />
+      <Route path="/details" element={<ProductDetailComponent />} />
+
+      {/* About route */}
       <Route path="/about" element={<AboutComponent />} />
+
+      {/* Contact route */}
       <Route path="/contact" element={<ContactComponent />} />
 
+      {/* Login route */}
       <Route path="/login" element={<LoginComponent />} />
+
+      {/* Signup route */}
       <Route path="/register" element={<SignupComponent />} />
 
+      {/* Not Found route */}
       <Route path="*" element={<NotFound />} />
     </Routes>
 

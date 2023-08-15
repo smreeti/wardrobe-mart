@@ -8,7 +8,7 @@
   font-family: cursive;
 }
 
-h1{
+h1 {
   color: red;
 }
 
@@ -293,10 +293,10 @@ h2 {
   width: 200px;
   max-width: 200px;
   vertical-align: middle;
-  
+
 }
 
-.logonew{
+.logonew {
   color: #ffffff;
   font-size: 100%;
   font-weight: bold;
@@ -323,7 +323,7 @@ h2 {
   padding: 0;
 }
 
-.menu > li {
+.menu>li {
   margin: 0 1rem;
   overflow: hidden;
 }
@@ -364,16 +364,16 @@ h2 {
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#menu-toggle:checked+.menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
@@ -500,7 +500,7 @@ footer li {
   min-height: 32px;
 }
 
-footer > p {
+footer>p {
   text-align: center;
   padding: 30px 0;
 }
@@ -599,10 +599,10 @@ th input {
 }
 
 
-.shake:hover{
+.shake:hover {
   position: unset;
-        animation: shake 0.5s;
-        animation-iteration-count: infinite;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 .trans {
@@ -725,11 +725,13 @@ th input {
 #saleimg {
   margin-bottom: 2%;
 }
+
 .aside {
 
   animation: animateClr 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
   background-size: 400%;
 }
+
 @keyframes animateClr {
   0% {
     background-position: 0% 50%;
@@ -743,13 +745,16 @@ th input {
     background-position: 0% 50%;
   }
 }
+
 .contact-detail {
-  background-image: url('../images/bg-01.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); /* Combine the background image and gradient */
+  background-image: url('../images/bg-01.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  /* Combine the background image and gradient */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 1;  padding: 30px 15px 0;
+  z-index: 1;
+  padding: 30px 15px 0;
 }
 
 .overlay-text {
@@ -769,9 +774,11 @@ th input {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); /* Adjust the alpha values and colors for the gradient */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  /* Adjust the alpha values and colors for the gradient */
   z-index: -1;
 }
+
 .container.store-detail {
   display: flex;
   flex-direction: column;
@@ -785,52 +792,53 @@ th input {
 
 .store-details {
   padding: 30px 15px;
-  margin: 20px; 
+  margin: 20px;
 }
 
 .store-details h2,
 .store-details p {
-  text-align: center; 
+  text-align: center;
 }
+
 @keyframes shake {
   0% {
-      transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(1px, 1px) rotate(0deg);
   }
 
   10% {
-      transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
 
   20% {
-      transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-3px, 0px) rotate(1deg);
   }
 
   30% {
-      transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(3px, 2px) rotate(0deg);
   }
 
   40% {
-      transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(1px, -1px) rotate(1deg);
   }
 
   50% {
-      transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
 
   60% {
-      transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-3px, 1px) rotate(0deg);
   }
 
   70% {
-      transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(3px, 1px) rotate(-1deg);
   }
 
   80% {
-      transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-1px, -1px) rotate(1deg);
   }
 
   90% {
-      transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(1px, 2px) rotate(0deg);
   }
 }
 
@@ -957,7 +965,7 @@ th input {
       height: 500px;
       background-size: cover;
     }
-  
+
     25% {
       background: url(../images/testingj.png), url(../images/testingk.png);
       width: 100%;
@@ -966,27 +974,27 @@ th input {
       height: 500px;
       background-size: cover;
     }
-  
+
     50% {
       background: url(../images/testingk.png), url(../images/testingl.png);
-  
+
       width: 100%;
       background-repeat: no-repeat;
       background-position: center;
       height: 500px;
       background-size: cover;
     }
-  
+
     75% {
       background: url(../images/testingl.png), url(../images/testingm.png);
-  
+
       width: 100%;
       background-repeat: no-repeat;
       background-position: center;
       height: 500px;
       background-size: cover;
     }
-  
+
     100% {
       background: url(../images/testingm.png), url(../images/testingn.png);
       width: 100%;
@@ -1020,6 +1028,7 @@ th input {
   .menu-button-container {
     display: flex;
   }
+
   .buttonstyle {
     width: 150px;
     padding: 8px;
@@ -1043,7 +1052,7 @@ th input {
     z-index: 99999;
   }
 
-  #menu-toggle ~ .menu li {
+  #menu-toggle~.menu li {
     height: 0;
     margin: 0;
     padding: 0;
@@ -1051,14 +1060,14 @@ th input {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  #menu-toggle:checked ~ .menu li {
+  #menu-toggle:checked~.menu li {
     border: 1px solid rgba(255, 255, 255, 0.096);
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  .menu > li {
+  .menu>li {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -1068,7 +1077,7 @@ th input {
     background-color: #ed2d2f;
   }
 
-  .menu > li:not(:last-child) {
+  .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
@@ -1134,3 +1143,4 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
