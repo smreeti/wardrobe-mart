@@ -1218,6 +1218,7 @@ footer {
   margin-top: 6% !important;
 }
 
+
 .slideshow {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../images/keyimgone.jpg) no-repeat center left;
@@ -1324,6 +1325,7 @@ footer {
 .imgbor {
   border-radius: 20px;
   height: 400px;
+  object-fit: cover;
 }
 
 #top_selling .product_title {
