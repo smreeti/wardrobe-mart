@@ -432,16 +432,14 @@ h2 {
 
 #top_selling .items img {
   max-width: 300px;
-  height: 100%;
+
 }
 
 .items {
   transition: all 0.3s linear;
 }
 
-.items:hover {
-  transform: rotate(-7deg);
-}
+
 
 .logo {
   height: auto;
@@ -594,9 +592,6 @@ th input {
   /* transition: all 0.3s linear; */
 }
 
-.product:hover {
-  /* transform: rotate(-7deg); */
-}
 
 
 .shake:hover{
@@ -763,15 +758,15 @@ th input {
 
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); /* Adjust the alpha values and colors for the gradient */
-  z-index: -1;
-}
+  /* z-index: -1; */
+/* } */ 
 .container.store-detail {
   display: flex;
   flex-direction: column;
@@ -1134,3 +1129,231 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+
+/* About Us */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  /* padding: 40px; */
+  text-align: center;
+  margin-top: 4%;
+}
+
+.about-section .about-us-container {
+  background-color: #fff;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  padding: 40px;
+  padding-left: 90px;
+  margin-bottom: 4%;
+  padding-right: 90px;
+}
+
+.about-section .row {
+  align-items: center;
+}
+
+.about-section .col {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+.cover-image {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  overflow: hidden;
+}
+
+.cover-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-image .overlay h1 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.midimg {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 6% !important;
+}
+
+.slideshow {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/keyimgone.jpg) no-repeat center left;
+  animation: slide 20s infinite;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+@keyframes slide {
+  0% {
+    background: url(../../images/keyimgone.jpg),
+      url(../../images/keyimgtwo.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  25% {
+    background: url(../../images/keyimgtwo.jpg), url(../../images/keyimgthree.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  50% {
+    background: url(../../images/keyimgthree.jpg), url(../../images/keyimgfour.jpg);
+    animation: slide 20s infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(../../images/keyimgfour.jpg),
+      url(../../images/keyimgfive.jpg);
+    animation: slide 20s infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../../images/keyimgfive.jpg),
+      url(../../images/keyimgsix.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+}
+
+
+
+.cover-image .overlay h1 {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.centertext {
+  text-align: center;
+  font-size: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.wholesec {
+  background-color: #fff;
+  height: 100%;
+}
+
+.remmargin {
+  margin-top: 0px !important;
+}
+
+.about-us-container {
+  max-width: 1600px !important;
+}
+
+#top_selling_container h1{
+  padding: 20px;
+  font-size: clamp(1.5rem, 2vw - 1rem, 2.5rem);
+}
+
+.changecol {
+  background-color: #fff;
+}
+
+.imgbor {
+  border-radius: 20px;
+  height: 400px;
+}
+
+#top_selling .product_title {
+  font-size: 0.9rem;
+  padding: 4px 0;
+}
+.product_title {
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.introduction {
+  background-color: beige;
+  margin-top: 7%;
+}
+
+.fonttext {
+  font-size: 18px;
+}
+
+.standout {
+  font-size: larger !important;
+}
+
+.success{
+  font-size: 1.5rem;
+text-decoration: underline;
+font-weight: normal;}
+
+
+  .texts{
+    font-weight: normal !important;
+  }
