@@ -183,9 +183,10 @@ h2 {
 
 .filters_mobile {
   display: flex;
-  position: sticky;
   top: 0;
-  width: 100%;
+  width: 50%;
+  margin: auto;
+  gap: 10px;
 }
 
 .filters {
@@ -589,7 +590,7 @@ th input {
 
 #products {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(1, auto);
   grid-template-rows: auto;
   gap: 16px;
 }
@@ -888,8 +889,6 @@ th input {
   }
 }
 
-
-
 @media screen and (min-width: 768px) {
   #go_to_top {
     display: none;
@@ -1055,7 +1054,7 @@ th input {
 @media screen and (min-width: 568px) and (max-width: 1024px) {
   #products {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto;
     gap: 8px;
   }
