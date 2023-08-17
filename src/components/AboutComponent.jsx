@@ -4,8 +4,6 @@ import React from "react";
 export default function About() {
   return (
     <>
-
-
       <section className="wholesec">
         <div className="cover-image resdiv image-container">
           <img src="../../images/team.jpg" className="resimg" alt="Cover" />
@@ -31,12 +29,10 @@ export default function About() {
                 <p>
                   At Wardrobe Mart, we believe that fashion is not just about clothing, but a reflection of your individuality, creativity, and personality. Our online emporium is dedicated to bringing you an exquisite collection of clothing, accessories, and more, carefully curated to cater to your diverse tastes and fashion aspirations.
 
-
                 </p>
                 <p>
                   With a passion for the latest trends and an eye for timeless classics,
                   we strive to be your go-to source for all things stylish.
-
 
                 </p>
               </div>

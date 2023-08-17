@@ -219,6 +219,10 @@ h2 {
   background-repeat: no-repeat;
 }
 
+.about_container {
+  min-height: 93vh;
+}
+
 @keyframes slide {
   0% {
     background: url(../images/mobilesome.png), url(../images/mobilesome2.png);
@@ -447,6 +451,11 @@ ul {
 #top_selling .items img {
   max-width: 300px;
 
+}
+
+.items img {
+  height: 340px;
+  object-fit: cover;
 }
 
 .items {
@@ -778,11 +787,6 @@ th input {
   height: auto;
 }
 
-.store-details {
-  padding: 30px 15px;
-  margin: 20px;
-}
-
 .store-details h2,
 .store-details p {
   text-align: center;
@@ -790,6 +794,7 @@ th input {
 
 .contact-main-container {
   border: 1px solid #e3e3e3;
+  margin-top: 20px;
 }
 
 .contactBtn {
@@ -890,6 +895,10 @@ th input {
 }
 
 @media screen and (min-width: 768px) {
+  .contact-main-container {
+    margin-top: 0px;
+  }
+
   #go_to_top {
     display: none;
     position: fixed;
@@ -1145,7 +1154,7 @@ th input {
 }
 
 .btnClass {
-  width: 25%;
+  width: 30%;
   margin: auto;
   margin-top: 12px;
   background-color: #0A529E !important;
@@ -1405,6 +1414,7 @@ footer {
   word-wrap: break-word;
   padding-top: 20px;
   font-weight: bold;
+  margin-bottom: 2px;
 }
 
 .introduction {
