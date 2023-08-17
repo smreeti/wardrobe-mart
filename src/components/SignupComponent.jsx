@@ -58,7 +58,7 @@ const SignupComponent = () => {
             onChange={handleInputChange}
             required
           />
-          <button type="submit">Signup</button>
+          <button type="submit" className='btnClass'>Signup</button>
         </form>
       </div>
     </div>

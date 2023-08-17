@@ -3,7 +3,7 @@ import React from "react";
 const StoreDetailComponent = () => {
   return (
     <>
-      <div className="container store-detail mt-3">
+      <div className="container store-detail">
         <h3>Find Our Stores</h3>
         <div className="row  justify-content-center mt-4 py-4">
           <div className="col-md-6">

@@ -66,8 +66,8 @@ const ContactUsFormComponent = () => {
   };
 
   return (
-    <div className="container">
-      <h2>Contact Us</h2>
+    <div className="container contact-main-container">
+      <h2 className='text-center'>Contact Us</h2>
       {isSuccess && ( // Render dismissive message if isSuccess is true
         <div className="alert alert-success mt-3" role="alert">
           Your message has been sent successfully!
@@ -86,7 +86,7 @@ const ContactUsFormComponent = () => {
           />
           {formErrors.name && <div className="invalid-feedback">{formErrors.name}</div>}
         </div>
-        <div className="form-group mt-3">
+        <div className="form-group mt-2">
           <label htmlFor="email">Email:</label>
           <input
             type="text"
@@ -98,7 +98,7 @@ const ContactUsFormComponent = () => {
           />
           {formErrors.email && <div className="invalid-feedback">{formErrors.email}</div>}
         </div>
-        <div className="form-group mt-3">
+        <div className="form-group mt-2">
           <label htmlFor="message">Message:</label>
           <textarea
             className={`form-control ${formErrors.message ? 'is-invalid' : ''}`}
@@ -110,7 +110,7 @@ const ContactUsFormComponent = () => {
           ></textarea>
           {formErrors.message && <div className="invalid-feedback">{formErrors.message}</div>}
         </div>
-        <button type="submit" className="btn btn-primary mt-3">Submit</button>
+        <button type="submit" className='btnClass contactBtn'>Submit</button>
       </form>
     </div>
     

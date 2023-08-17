@@ -59,7 +59,7 @@ export default function Footer() {
                         /></a>
                 </div>
             </div>
-            <p>Copyright &copy; 2022 | The Souled Store</p>
+            <p>Copyright &copy; 2023 | WardrobeMart</p>
         </footer>
     )
 }

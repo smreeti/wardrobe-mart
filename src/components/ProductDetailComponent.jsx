@@ -5,7 +5,7 @@ export default function ProductDetailComponent() {
         <div>
             <button id="go_to_top" title="Go to top">^</button>
             <section id="product_details_container">
-                <p class="path">"Home/Mens Jacket/Harry Potter/Harry Potter: Slytherin"</p>
+                <p className="path">"Home/Mens Jacket/Harry Potter/Harry Potter: Slytherin"</p>
 
                 <section id="product_details">
                     <div id="images">
@@ -34,8 +34,8 @@ export default function ProductDetailComponent() {
                             <span>-</span><input type="number" /><span>+</span>
                         </div>
                         <div id="actions">
-                            <button class="buttonstyle">Add to Cart</button>
-                            <button class="buttonstyle" >Add to Wishlist</button>
+                            <button className="buttonstyle">Add to Cart</button>
+                            <button className="buttonstyle" >Add to Wishlist</button>
                         </div>
 
                         <div id="return_info">
@@ -47,11 +47,11 @@ export default function ProductDetailComponent() {
 
                         <div id="long_description">
                             <h1>Product Details</h1>
-                            <p class="title">Material & Care:</p>
+                            <p className="title">Material & Care:</p>
                             <p>60% Cotton 40% Polyester</p>
                             <p>Dry Clean Only</p>
-                            <p class="title">Country of Origin: India (and proud)</p>
-                            <p class="title">Manufactured & Sold By:</p>
+                            <p className="title">Country of Origin: India (and proud)</p>
+                            <p className="title">Manufactured & Sold By:</p>
                             <p>The Souled Store Pvt. Ltd.</p>
                             <p>224, Tantia Jogani Industrial Premises</p>
                             <p>connect@thesouledstore.com</p>
@@ -60,40 +60,40 @@ export default function ProductDetailComponent() {
                 </section>
             </section>
 
-            <section class="similar_products">
-                <h1 class="similar">Similar Products</h1>
+            <section className="similar_products">
+                <h1 className="similar">Similar Products</h1>
                 <div id="products_container">
                     <div id="products">
-                        <div class="product">
+                        <div className="product">
                             <img src="images/optiona.png" alt="Scooby Doo" />
-                            <p class="product_title">Scooby Doo: Where Are You</p>
+                            <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
-                            <p class="description">Oversized T-shirts</p>
-                            <p class="price">$20.99</p>
+                            <p className="description">Oversized T-shirts</p>
+                            <p className="price">$20.99</p>
                         </div>
 
-                        <div class="product">
+                        <div className="product">
                             <img src="images/optionb.png" alt="Scooby Doo" />
-                            <p class="product_title">Scooby Doo: Where Are You</p>
+                            <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
-                            <p class="description">Oversized T-shirts</p>
-                            <p class="price">$20.99</p>
+                            <p className="description">Oversized T-shirts</p>
+                            <p className="price">$20.99</p>
                         </div>
 
-                        <div class="product">
+                        <div className="product">
                             <img src="images/optionc.png" alt="Scooby Doo" />
-                            <p class="product_title">Scooby Doo: Where Are You</p>
+                            <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
-                            <p class="description">Oversized T-shirts</p>
-                            <p class="price">$20.99</p>
+                            <p className="description">Oversized T-shirts</p>
+                            <p className="price">$20.99</p>
                         </div>
 
-                        <div class="product">
+                        <div className="product">
                             <img src="images/optiond.png" alt="Scooby Doo" />
-                            <p class="product_title">Scooby Doo: Where Are You</p>
+                            <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
-                            <p class="description">Oversized T-shirts</p>
-                            <p class="price">$20.99</p>
+                            <p className="description">Oversized T-shirts</p>
+                            <p className="price">$20.99</p>
                         </div>
                     </div>
                 </div>

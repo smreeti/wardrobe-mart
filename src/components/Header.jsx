@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <section className="top-nav">
             <div>
-                <Link className="logonew" to="/"> {/* Use Link to navigate to the homepage */}
+                <Link className="logonew" to="/">
                     <p>WardrobeMart</p>
                 </Link>
             </div>

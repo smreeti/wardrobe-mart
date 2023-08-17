@@ -47,7 +47,7 @@ const LoginComponent = () => {
             onChange={handleInputChange}
             required
           />
-          <button type="submit">Login</button>
+          <button type="submit" className='btnClass'>Login</button>
         </form>
       </div>
     </div>

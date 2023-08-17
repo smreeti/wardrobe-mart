@@ -4,7 +4,7 @@ import StoreDetailComponent from "./StoreDetailComponent";
 
 const ContactComponent = () => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-5">
       <div className="row">
         <div className="col-lg-6 col-md-12 text-white aside px-4 py-5 contact-detail">
           <div className="overlay"></div>
