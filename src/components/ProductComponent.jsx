@@ -8,7 +8,7 @@ export default function ProductComponent() {
 
             <section id="hero_banner">
                 <div>
-                    <div className="slideshow"></div>
+                    <div className="slideshowProduct" style={{ animationName: 'slideProduct' }}></div>
                 </div>
             </section>
 
@@ -36,7 +36,7 @@ export default function ProductComponent() {
                     <div id="products">
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/x.png" alt="Scooby Doo"
+                                <img className="pro-img zoom-image " src="images/x.png" alt="Scooby Doo"
                                 />
                             </Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
@@ -47,7 +47,7 @@ export default function ProductComponent() {
 
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/a.png" alt="Scooby Doo"
+                                <img className="pro-img zoom-image " src="images/a.png" alt="Scooby Doo"
                                 />
                             </Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
@@ -58,7 +58,7 @@ export default function ProductComponent() {
 
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/b.png" alt="Scooby Doo"
+                                <img className="pro-img zoom-image " src="images/b.png" alt="Scooby Doo"
                                 />
                             </Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
@@ -69,7 +69,7 @@ export default function ProductComponent() {
 
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/c.png" alt="Scooby Doo"
+                                <img className="pro-img  zoom-image" src="images/c.png" alt="Scooby Doo"
                                 /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
@@ -79,7 +79,7 @@ export default function ProductComponent() {
 
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/d.png" alt="Scooby Doo"
+                                <img className="pro-img zoom-image " src="images/d.png" alt="Scooby Doo"
                                 /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
@@ -89,7 +89,7 @@ export default function ProductComponent() {
 
                         <div className="product">
                             <Link to="/details">
-                                <img className="pro-img " src="images/e.png" alt="Scooby Doo"
+                                <img className="pro-img zoom-image " src="images/e.png" alt="Scooby Doo"
                                 /></Link>
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
@@ -98,7 +98,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/f.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/f.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -106,7 +106,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/g.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/g.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -114,7 +114,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/h.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/h.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -122,7 +122,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/i.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/i.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -130,7 +130,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/j.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/j.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -138,7 +138,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/k.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image " src="images/k.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -146,7 +146,7 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/l.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/l.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
@@ -154,77 +154,77 @@ export default function ProductComponent() {
                         </div>
 
                         <div className="product">
-                            <img className="pro-img " src="images/m.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/m.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/n.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image " src="images/n.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/o.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/o.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/p.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/p.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/q.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/q.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/r.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/r.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/s.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/s.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/t.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/t.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/u.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/u.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img" src="images/v.png" alt="Scooby Doo" />
+                            <img className="pro-imgzoom-image zoom-image" src="images/v.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
                             <p className="price">$20.99</p>
                         </div>
                         <div className="product">
-                            <img className="pro-img " src="images/w.png" alt="Scooby Doo" />
+                            <img className="pro-img zoom-image" src="images/w.png" alt="Scooby Doo" />
                             <p className="product_title">Scooby Doo: Where Are You</p>
                             <hr />
                             <p className="description">Oversized T-shirts</p>
