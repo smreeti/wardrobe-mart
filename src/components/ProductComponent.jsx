@@ -8,7 +8,7 @@ export default function ProductComponent() {
 
             <section id="hero_banner">
                 <div>
-                    <div className="slideshow"></div>
+                    <div className="slideshowProduct" style={{ animationName: 'slideProduct' }}></div>
                 </div>
             </section>
 

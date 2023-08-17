@@ -1,44 +1,19 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+
 export default function HomeComponent() {
     return (
-        <div>
-            <div className="dashboard_slider">
-                <picture>
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet="../../images/christmas-2971961_1920.jpg"
-                        alt="christmas"
-                    />
-                    <img
-                        src="./images/christmas-mobile.jpg"
-                        alt="christmas"
-                    />
-                </picture>
-                <picture>
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet="./images/baby-3036925_1920.jpg"
-                        alt="baby"
-                    />
-                    <img
-                        src="./images/baby_mobile.jpg"
-                        alt="baby"
-                    />
-                </picture>
-                <picture>
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet="./images/girl-2122909_1920.jpg"
-                        alt="baby"
-                    />
-                    <img
-                        src="./images/girl_mobile.jpg"
-                        alt="baby"
-                    />
-                </picture>
-            </div>
+        <div >
+             <section>
+              
+
+             <div class="banner">
+    <img class="bannerimage" src="images/banimg.png" alt="Banner Image" />
+</div>
+
+
+            </section>
 
             <div>
                 <button id="go_to_top" title="Go to top">^</button>
@@ -50,7 +25,7 @@ export default function HomeComponent() {
                     <div id="collections">
                         <div className="collection">
                             <Link to="/products">
-                                <img className="high"
+                                <img className="high zoom-image"
                                     src="images/magician-4586454_1920.jpg"
                                     alt="sweatshirts and sweaters"
                                 />
@@ -59,7 +34,7 @@ export default function HomeComponent() {
 
                         <div className="collection">
                             <Link to="/products">
-                                <img className="high"
+                                <img className="high zoom-image"
                                     src="images/people-2593377_1920.jpg"
                                     alt="hoodies and jackets"
                                 />
@@ -67,7 +42,7 @@ export default function HomeComponent() {
                         </div>
                         <div className="collection ">
                             <Link to="/products">
-                                <img className="high"
+                                <img className="high zoom-image"
                                     src="images/shoes-1433925_1920.jpg"
                                     alt="hardiks collection"
                                 /> </Link>
@@ -89,13 +64,7 @@ export default function HomeComponent() {
                 <section id="top_selling_container">
                     <h1>TOP SELLING</h1>
                     <div id="top_selling">
-                        <div className="items">
-                            <img src="images/coat.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
+                    
 
                         <div className="items">
                             <img src="images/men_jacket.png" alt="Scooby Doo" />

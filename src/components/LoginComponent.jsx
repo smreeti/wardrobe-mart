@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import ParticleComponent from './particles'; 
+
 
 const LoginComponent = () => {
-  // Initialize state for login form data
+
   const [loginFormData, setLoginFormData] = useState({
     email: '',
     password: '',
   });
 
-  // Handle input change events
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setLoginFormData({
@@ -16,7 +17,6 @@ const LoginComponent = () => {
     });
   };
 
-  // Handle login form submission
   const handleLoginSubmit = (e) => {
     e.preventDefault();
 
@@ -25,6 +25,8 @@ const LoginComponent = () => {
   };
 
   return (
+    <>
+    {/* <ParticleComponent /> */}
     <div className="container-login">
       <div className="form-wrapper">
         <h1>Login</h1>
@@ -51,6 +53,7 @@ const LoginComponent = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
