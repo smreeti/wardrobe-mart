@@ -1441,7 +1441,6 @@ footer {
   font-weight: normal !important;
 }
 
-
 .slideshowAbout {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../images/keyimgone.jpg) no-repeat center left;
@@ -1451,6 +1450,7 @@ footer {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
+  animation-name: slideAbout;
 }
 
 @keyframes slideAbout {
@@ -1508,7 +1508,6 @@ footer {
   }
 }
 
-
 .slideshowProduct {
   background: url('../images/testingi.png');
   animation: slide 20s infinite;
@@ -1517,6 +1516,7 @@ footer {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
+  animation-name: slideProduct;
 }
 
 @keyframes slideProduct {
