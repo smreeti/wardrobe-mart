@@ -23,7 +23,6 @@ const SignupComponent = () => {
 
     console.log('Signing up...');
     console.log(signupFormData);
-
   };
 
   return (

@@ -11,8 +11,6 @@ export default function HomeComponent() {
             <HomeSliderComponent />
             <div>
                 <button id="go_to_top" title="Go to top">^</button>
-                <section id="hero_text_container"></section>
-
                 <HomeCollectionsContainer />
                 <HomeMerchandiseComponent />
                 <HomeTopSellingComponent />
