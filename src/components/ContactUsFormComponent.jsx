@@ -1,3 +1,4 @@
+//author: Sameer Khanal
 import React, { useState } from 'react';
 
 const ContactUsFormComponent = () => {
@@ -113,7 +114,7 @@ const ContactUsFormComponent = () => {
         <button type="submit" className='btnClass contactBtn'>Submit</button>
       </form>
     </div>
-    
+
   );
 };
 

@@ -1,4 +1,5 @@
-import React from 'react';
+//author: Smriti Mool
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function ProductComponent() {
@@ -158,10 +159,13 @@ export default function ProductComponent() {
         },
     ];
 
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
-            <button id="go_to_top" title="Go to top">^</button>
-
             <section id="hero_banner">
                 <div>
                     <div className="slideshowProduct"></div>

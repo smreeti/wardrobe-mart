@@ -15,11 +15,11 @@ $(document).ready(function () {
 
   if (goToTopBtn) {
     window.onscroll = () => {
-      /* Check if the user has scrolled down more than 20 pixels and the screen width is 
+      /* Check if the user has scrolled down more than 18 pixels and the screen width is 
         greater than or equal to 768px.*/
       if (
-        (document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20) &&
+        (document.body.scrollTop > 18 ||
+          document.documentElement.scrollTop > 18) &&
         breakPoint.matches
       ) {
         // Display the "Go To Top" button.

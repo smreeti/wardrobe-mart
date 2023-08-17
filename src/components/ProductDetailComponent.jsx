@@ -1,9 +1,14 @@
-import React from "react";
+//author: Ayush Daverani
+import React, { useEffect } from "react";
 
 export default function ProductDetailComponent() {
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
-            <button id="go_to_top" title="Go to top">^</button>
             <section id="product_details_container">
                 <p className="path">"Home/Mens Jacket/Harry Potter/Harry Potter: Slytherin"</p>
 

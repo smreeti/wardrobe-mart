@@ -1,3 +1,4 @@
+//author: Sameer Khanal
 import React from "react";
 
 const StoreDetailComponent = () => {

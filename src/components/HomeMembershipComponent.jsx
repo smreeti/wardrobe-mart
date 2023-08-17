@@ -1,3 +1,4 @@
+//author: Smriti Mool
 export default function HomeMembershipComponent(){
     return (
         <section id="membership">

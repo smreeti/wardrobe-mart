@@ -1,3 +1,4 @@
+//author: Smriti Mool
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -34,7 +35,7 @@ export default function HomeMerchandiseComponent() {
             <h1>OFFICIAL MERCHANDISE</h1>
             <div id="official_merchandise">
                 {merchandiseData.map((item, index) => (
-                    <Link to={item.link}>
+                    <Link to={item.link} key={index}>
                         <img key={index} src={item.src} alt={item.alt} />
                     </Link>
                 ))}

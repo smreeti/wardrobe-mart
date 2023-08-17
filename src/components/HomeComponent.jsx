@@ -1,3 +1,4 @@
+//author: Smriti Mool
 import React from 'react';
 import HomeSliderComponent from './HomeSliderComponent.jsx';
 import HomeCollectionsContainer from './HomeCollectionsContainer.jsx';
@@ -8,9 +9,10 @@ import HomeMembershipComponent from './HomeMembershipComponent.jsx';
 export default function HomeComponent() {
     return (
         <div>
+            <button id="go_to_top" title="Go to top">^</button>
+
             <HomeSliderComponent />
             <div>
-                <button id="go_to_top" title="Go to top">^</button>
                 <HomeCollectionsContainer />
                 <HomeMerchandiseComponent />
                 <HomeTopSellingComponent />

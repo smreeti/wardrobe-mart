@@ -1,3 +1,4 @@
+//author: Smriti Mool
 import React from "react";
 import Slider from "react-slick";
 
