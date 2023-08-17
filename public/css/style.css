@@ -1440,3 +1440,165 @@ footer {
 .texts {
   font-weight: normal !important;
 }
+
+
+.slideshowAbout {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/keyimgone.jpg) no-repeat center left;
+  animation: slide 15s infinite;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+@keyframes slideAbout {
+  0% {
+    background: url(../../images/keyimgone.jpg),
+      url(../../images/keyimgtwo.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  25% {
+    background: url(../../images/keyimgtwo.jpg), url(../../images/keyimgthree.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  50% {
+    background: url(../../images/keyimgthree.jpg), url(../../images/keyimgfour.jpg);
+    animation: slide 20s infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(../../images/keyimgfour.jpg),
+      url(../../images/keyimgfive.jpg);
+    animation: slide 20s infinite;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../../images/keyimgfive.jpg),
+      url(../../images/keyimgsix.jpg);
+    width: 100%;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+  }
+}
+
+
+.slideshowProduct {
+  background: url('../images/testingi.png');
+  animation: slide 20s infinite;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+@keyframes slideProduct {
+  0% {
+    background: url(../images/testingi.png), url(../images/testingj.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+
+  25% {
+    background: url(../images/testingj.png), url(../images/testingk.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+
+  50% {
+    background: url(../images/testingk.png), url(../images/testingl.png);
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+
+  75% {
+    background: url(../images/testingl.png), url(../images/testingm.png);
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+
+  100% {
+    background: url(../images/testingm.png), url(../images/testingn.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+  }
+}
+
+#official_merchandise img {
+  width: 220px;
+  margin: 10px;
+  animation: pulsate 2s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-image {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.zoom-image {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-image:hover {
+  transform: scale(0.9);
+}

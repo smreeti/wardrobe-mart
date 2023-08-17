@@ -2,13 +2,169 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function ProductComponent() {
+
+    const products = [
+        {
+            id: 1, imageSrc: "images/x.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 2,
+            imageSrc: "images/a.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 3,
+            imageSrc: "images/b.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 4,
+            imageSrc: "images/c.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 5,
+            imageSrc: "images/d.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 6,
+            imageSrc: "images/e.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 7,
+            imageSrc: "images/f.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 8,
+            imageSrc: "images/g.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 9,
+            imageSrc: "images/h.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 10,
+            imageSrc: "images/i.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 11,
+            imageSrc: "images/j.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 12,
+            imageSrc: "images/k.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 13,
+            imageSrc: "images/l.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 14,
+            imageSrc: "images/m.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 15,
+            imageSrc: "images/n.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 16,
+            imageSrc: "images/o.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 17,
+            imageSrc: "images/p.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 18,
+            imageSrc: "images/q.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 19,
+            imageSrc: "images/r.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 20,
+            imageSrc: "images/s.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        }, {
+            id: 21,
+            imageSrc: "images/t.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 22,
+            imageSrc: "images/u.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 23,
+            imageSrc: "images/v.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+        {
+            id: 24,
+            imageSrc: "images/w.png",
+            title: "Scooby Doo: Where Are You",
+            description: "Oversized T-shirts",
+            price: "$20.99"
+        },
+    ];
+
     return (
         <div>
             <button id="go_to_top" title="Go to top">^</button>
 
             <section id="hero_banner">
                 <div>
-                    <div className="slideshow"></div>
+                    <div className="slideshowProduct" style={{ animationName: 'slideProduct' }}></div>
                 </div>
             </section>
 
@@ -34,202 +190,19 @@ export default function ProductComponent() {
 
                 <div id="products_container">
                     <div id="products">
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/x.png" alt="Scooby Doo"
-                                />
-                            </Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
 
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/a.png" alt="Scooby Doo"
-                                />
-                            </Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/b.png" alt="Scooby Doo"
-                                />
-                            </Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/c.png" alt="Scooby Doo"
-                                /></Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/d.png" alt="Scooby Doo"
-                                /></Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <Link to="/details">
-                                <img className="pro-img " src="images/e.png" alt="Scooby Doo"
-                                /></Link>
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/f.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/g.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/h.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/i.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/j.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/k.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/l.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-
-                        <div className="product">
-                            <img className="pro-img " src="images/m.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/n.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/o.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/p.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/q.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/r.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/s.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/t.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/u.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img" src="images/v.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
-                        <div className="product">
-                            <img className="pro-img " src="images/w.png" alt="Scooby Doo" />
-                            <p className="product_title">Scooby Doo: Where Are You</p>
-                            <hr />
-                            <p className="description">Oversized T-shirts</p>
-                            <p className="price">$20.99</p>
-                        </div>
+                        {products.map(product => (
+                            <div className="product" key={product.id}>
+                                <Link to="/details">
+                                    <img className="pro-img zoom-image"
+                                        src={product.imageSrc} alt={product.title} />
+                                </Link>
+                                <p className="product_title">{product.title}</p>
+                                <hr />
+                                <p className="description">{product.description}</p>
+                                <p className="price">{product.price}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section >

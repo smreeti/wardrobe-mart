@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function About() {
   return (
     <>
@@ -96,7 +95,7 @@ export default function About() {
 
         <section className="cover-image midimg" id="hero_banner">
           <div>
-            <div className="slideshow overlay"></div>
+            <div className="slideshowAbout overlay" style={{ animationName: 'slideAbout' }}></div>
           </div>
         </section>
 
